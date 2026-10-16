@@ -1,21 +1,37 @@
 # EviDes: evidencias de despacho
 
-App móvil para registrar y organizar las fotos y videos de evidencia de cada contenedor que sale de una planta, agrupados por proveedor, con ubicación en mapa y filtros de búsqueda.
+App móvil para registrar y organizar las fotos y videos de evidencia de cada contenedor que sale de una planta, organizados por número de CI (control interno), con ubicación en mapa y filtros de búsqueda.
 
 ## Integrantes
 
 - Allen Vargas Cousin (proyecto individual)
 
+## Cómo funciona
+
+1. El usuario escribe solo el número del CI (el prefijo "CI-" ya viene puesto).
+2. Si el CI no existe, la app crea una carpeta con ese CI y empieza a guardar las evidencias.
+3. Si el CI ya existe (aunque sea de días atrás), la app abre su carpeta para agregar más fotos o videos, sin crear una nueva.
+
 ## Funcionalidades previstas
 
-- CRUD de despachos
-- Lista con filtros personalizados (proveedor, fecha, estado)
+- CRUD: crear la carpeta de un CI, consultar, agregar y eliminar evidencias
+- Lista con filtros personalizados (todos, fotos, videos)
 - Acceso a cámara o galería para fotos y videos
-- Diálogos de confirmación
-- Mapa con la ubicación del despacho
+- Diálogos (CI ya existe, confirmar eliminar)
+- Mapa con los lugares donde se tomaron las evidencias
+
+## Mockups
+
+Diseñados con Material Design 3 para Android (Android Studio). Los CI y las evidencias que se muestran son datos de ejemplo.
+
+| 1. Inicio | 2. CI ya existe | 3. Carpeta del CI |
+|---|---|---|
+| <img src="mockups/1Inicio.png" width="220"> | <img src="mockups/2DialogoCI.png" width="220"> | <img src="mockups/3CarpetadelCI.png" width="220"> |
+
+| 4. Agregar evidencia | 5. Mapa | 6. Confirmar eliminar |
+|---|---|---|
+| <img src="mockups/4Agregarevidencia.png" width="220"> | <img src="mockups/5Mapadeevidencias.png" width="220"> | <img src="mockups/6Confirmareliminar.png" width="220"> |
 
 ## Visión a futuro (tentativa)
-Se guardarán las fotos a nivel local creando carpetas según su CI 
 
-Tentativamente y de ser posible
-En una versión posterior, las evidencias se enviarían automáticamente a una unidad compartida, organizadas en carpetas CI.
+En una versión posterior, las evidencias se enviarían automáticamente a una unidad compartida (FSx), con una carpeta por CI, cuando el curso avance a ese nivel.
