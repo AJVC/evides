@@ -9,8 +9,9 @@ App móvil para registrar y organizar las fotos y videos de evidencia de cada co
 ## Cómo funciona
 
 1. El usuario escribe solo el número del CI (el prefijo "CI-" ya viene puesto).
-2. Si el CI no existe, la app crea una carpeta con ese CI y empieza a guardar las evidencias.
-3. Si el CI ya existe (aunque sea de días atrás), la app abre su carpeta para agregar más fotos o videos, sin crear una nueva.
+2. Si el CI no existe, la app crea una carpeta con ese CI en el almacenamiento interno del dispositivo y empieza a guardar ahí las evidencias.
+3. Si el CI ya existe (aunque sea de días atrás), la app abre esa carpeta para agregar más fotos o videos, sin crear una nueva.
+4. La creación, consulta y eliminación de carpetas y evidencias se hace a nivel interno de la app, sin conexión a servidores externos.
 
 ## Funcionalidades previstas
 
