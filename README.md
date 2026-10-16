@@ -15,5 +15,7 @@ App móvil para registrar y organizar las fotos y videos de evidencia de cada co
 - Mapa con la ubicación del despacho
 
 ## Visión a futuro (tentativa)
+Se guardarán las fotos a nivel local creando carpetas según su CI 
 
-En una versión posterior, las evidencias se enviarían automáticamente a una unidad compartida, organizadas en carpetas por proveedor.
+Tentativamente y de ser posible
+En una versión posterior, las evidencias se enviarían automáticamente a una unidad compartida, organizadas en carpetas CI.
