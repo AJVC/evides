@@ -36,3 +36,7 @@ Diseñados con Material Design 3 para Android (Android Studio). Los CI y las evi
 ## Visión a futuro (tentativa)
 
 En una versión posterior, las evidencias se enviarían automáticamente a una unidad compartida (FSx), con una carpeta por CI, cuando el curso avance a ese nivel.
+
+## Avance semanal
+
+- Semana 1: definición de la idea, mockups de las 6 pantallas y protección de la rama main.
