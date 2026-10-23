@@ -2,6 +2,7 @@ package com.example.evides.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.example.evides.domain.repository.EvidenceRepository
+import com.example.evides.util.CiUtils
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -24,7 +25,7 @@ class HomeViewModel(
     val folderToOpen: StateFlow<String?> = _folderToOpen.asStateFlow()
 
     fun onNumberChange(value: String) {
-        _number.value = value.filter { it.isDigit() }
+        _number.value = CiUtils.sanitize(value)
     }
 
     fun onContinue() {
