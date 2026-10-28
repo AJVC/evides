@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EviDes</string>
+
+    <!-- General actions -->
+    <string name="action_continue">Continuar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_create">Crear</string>
+    <string name="action_open_folder">Abrir carpeta</string>
+    <string name="action_delete">Eliminar</string>
+
+    <!-- Home screen -->
+    <string name="home_title">¿En qué CI vas a trabajar?</string>
+    <string name="home_subtitle">Escribe solo el número. El CI ya empieza con CI-.</string>
+    <string name="home_number_label">Número de CI</string>
+    <string name="home_hint">Si el CI ya existe, se abre su carpeta. Si no, se crea una nueva.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_exists_title">Este CI ya existe</string>
+    <string name="dialog_exists_message">%1$s ya tiene una carpeta. ¿Quieres abrirla para agregar más evidencias?</string>
+    <string name="dialog_create_title">¿Crear la carpeta?</string>
+    <string name="dialog_create_message">Se creará la carpeta %1$s. Revisa que el número sea correcto.</string>
+    <string name="dialog_delete_title">¿Eliminar esta evidencia?</string>
+    <string name="dialog_delete_message">Se borrará de la carpeta %1$s y no se podrá recuperar.</string>
+
+    <!-- Folder screen -->
+    <string name="filter_all">Todos</string>
+    <string name="filter_photos">Fotos</string>
+    <string name="filter_videos">Videos</string>
+    <string name="folder_evidence_count">%1$d evidencias</string>
+    <string name="folder_add">Agregar</string>
+    <string name="folder_selected_count">%1$d seleccionadas</string>
+
+    <!-- Add evidence sheet -->
+    <string name="add_title">Agregar evidencia</string>
+    <string name="add_saved_in">Se guardará en la carpeta %1$s</string>
+    <string name="add_take_photo">Tomar foto</string>
+    <string name="add_record_video">Grabar video</string>
+    <string name="add_choose_gallery">Elegir de la galería</string>
+
+    <!-- Map screen -->
+    <string name="map_title">Mapa de evidencias</string>
+    <string name="map_my_location">Mi ubicación</string>
+    <string name="map_evidence_at_point">%1$d evidencias en este punto</string>
+    <string name="map_view">Ver</string>
+</resources>
