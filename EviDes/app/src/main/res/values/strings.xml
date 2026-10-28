@@ -10,9 +10,11 @@
 
     <!-- Home screen -->
     <string name="home_title">Which CI are you working on?</string>
-    <string name="home_subtitle">Type only the number. The CI already starts with CI-.</string>
+    <string name="home_subtitle">Type only the number the CI.</string>
     <string name="home_number_label">CI number</string>
     <string name="home_hint">If the CI already exists, its folder opens. If not, a new one is created.</string>
+    <string name="home_ci_prefix">CI-</string>
+    <string name="home_number_placeholder">10482</string>
 
     <!-- Dialogs -->
     <string name="dialog_exists_title">This CI already exists</string>
