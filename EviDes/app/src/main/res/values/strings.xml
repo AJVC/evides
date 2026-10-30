@@ -30,13 +30,16 @@
     <string name="filter_videos">Videos</string>
     <string name="folder_evidence_count">%1$d evidences</string>
     <string name="folder_add">Add</string>
-    <string name="folder_selected_count">%1$d selected</string>
+    <plurals name="folder_selected_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
     <string name="folder_back">Back</string>
     <string name="folder_view_map">View map</string>
     <string name="evidence_photo">Photo</string>
     <string name="evidence_video">Video</string>
     <string name="evidence_selected">Selected</string>
-
+    <string name="selection_clear">Clear selection</string>
 
 
 

@@ -30,12 +30,16 @@
     <string name="filter_videos">Videos</string>
     <string name="folder_evidence_count">%1$d evidencias</string>
     <string name="folder_add">Agregar</string>
-    <string name="folder_selected_count">%1$d seleccionadas</string>
+    <plurals name="folder_selected_count">
+        <item quantity="one">%1$d seleccionada</item>
+        <item quantity="other">%1$d seleccionadas</item>
+    </plurals>
     <string name="folder_back">Volver</string>
     <string name="folder_view_map">Ver mapa</string>
     <string name="evidence_photo">Foto</string>
     <string name="evidence_video">Video</string>
     <string name="evidence_selected">Seleccionada</string>
+    <string name="selection_clear">Cancelar selección</string>
 
 
     <!-- Add evidence sheet -->

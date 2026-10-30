@@ -49,6 +49,47 @@
                 app:tint="@color/evides_on_surface" />
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/layoutSelectionBar"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/evides_primary_container"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/buttonClearSelection"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/selection_clear"
+                android:src="@drawable/ic_close"
+                app:tint="@color/evides_on_primary_container" />
+
+            <TextView
+                android:id="@+id/textSelectedCount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:textColor="@color/evides_on_primary_container"
+                android:textSize="22sp"
+                tools:text="1 seleccionada" />
+
+            <ImageButton
+                android:id="@+id/buttonDeleteSelected"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/action_delete"
+                android:src="@drawable/ic_delete"
+                app:tint="@color/evides_on_primary_container" />
+        </LinearLayout>
+
         <com.google.android.material.chip.ChipGroup
             android:id="@+id/chipGroupFilter"
             android:layout_width="match_parent"
