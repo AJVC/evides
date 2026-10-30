@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Evides" parent="Theme.Material3.Light.NoActionBar" />
+    <style name="Theme.Evides" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/evides_primary</item>
+        <item name="colorOnPrimary">@color/evides_on_primary</item>
+        <item name="colorPrimaryContainer">@color/evides_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/evides_on_primary_container</item>
+        <item name="colorSecondaryContainer">@color/evides_primary_container</item>
+        <item name="colorOnSecondaryContainer">@color/evides_on_primary_container</item>
+        <item name="colorOutline">@color/evides_outline</item>
+        <item name="colorError">@color/evides_error</item>
+        <item name="android:windowBackground">@color/evides_background</item>
+    </style>
 </resources>

@@ -31,6 +31,12 @@
     <string name="folder_evidence_count">%1$d evidences</string>
     <string name="folder_add">Add</string>
     <string name="folder_selected_count">%1$d selected</string>
+    <string name="folder_back">Back</string>
+    <string name="folder_view_map">View map</string>
+    <string name="evidence_photo">Photo</string>
+    <string name="evidence_video">Video</string>
+    <string name="evidence_selected">Selected</string>
+
 
     <!-- Add evidence sheet -->
     <string name="add_title">Add evidence</string>
