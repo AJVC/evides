@@ -38,6 +38,8 @@
     <string name="evidence_selected">Selected</string>
 
 
+
+
     <!-- Add evidence sheet -->
     <string name="add_title">Add evidence</string>
     <string name="add_saved_in">It will be saved in folder %1$s</string>

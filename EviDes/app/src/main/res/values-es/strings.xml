@@ -37,6 +37,7 @@
     <string name="evidence_video">Video</string>
     <string name="evidence_selected">Seleccionada</string>
 
+
     <!-- Add evidence sheet -->
     <string name="add_title">Agregar evidencia</string>
     <string name="add_saved_in">Se guardará en la carpeta %1$s</string>
