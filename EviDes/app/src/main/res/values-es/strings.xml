@@ -9,16 +9,18 @@
     <string name="action_delete">Eliminar</string>
 
     <!-- Home screen -->
-    <string name="home_title">¿En qué CI vas a trabajar?</string>
-    <string name="home_subtitle">Escribe solo el número. El CI ya empieza con CI-.</string>
+    <string name="home_title">¿En qué CI estás trabajando?</string>
+    <string name="home_subtitle">Escribe solo el número del CI.</string>
     <string name="home_number_label">Número de CI</string>
     <string name="home_hint">Si el CI ya existe, se abre su carpeta. Si no, se crea una nueva.</string>
+    <string name="home_ci_prefix">CI-</string>
+    <string name="home_number_placeholder">10482</string>
 
     <!-- Dialogs -->
     <string name="dialog_exists_title">Este CI ya existe</string>
     <string name="dialog_exists_message">%1$s ya tiene una carpeta. ¿Quieres abrirla para agregar más evidencias?</string>
-    <string name="dialog_create_title">¿Crear la carpeta?</string>
-    <string name="dialog_create_message">Se creará la carpeta %1$s. Revisa que el número sea correcto.</string>
+    <string name="dialog_create_title">¿Crear carpeta?</string>
+    <string name="dialog_create_message">Se creará la carpeta %1$s. Verifica que el número sea correcto.</string>
     <string name="dialog_delete_title">¿Eliminar esta evidencia?</string>
     <string name="dialog_delete_message">Se borrará de la carpeta %1$s y no se podrá recuperar.</string>
 
@@ -28,7 +30,13 @@
     <string name="filter_videos">Videos</string>
     <string name="folder_evidence_count">%1$d evidencias</string>
     <string name="folder_add">Agregar</string>
-    <string name="folder_selected_count">%1$d seleccionadas</string>
+    <string name="folder_selected_count">Seleccionadas: %1$d</string>
+    <string name="folder_back">Volver</string>
+    <string name="folder_view_map">Ver mapa</string>
+    <string name="evidence_photo">Foto</string>
+    <string name="evidence_video">Video</string>
+    <string name="evidence_selected">Seleccionada</string>
+    <string name="selection_clear">Cancelar selección</string>
 
     <!-- Add evidence sheet -->
     <string name="add_title">Agregar evidencia</string>
@@ -42,4 +50,15 @@
     <string name="map_my_location">Mi ubicación</string>
     <string name="map_evidence_at_point">%1$d evidencias en este punto</string>
     <string name="map_view">Ver</string>
+    <string name="map_placeholder">Aquí se mostrará el mapa</string>
+    <string name="map_total_summary">Total: %1$d, lugares: %2$d</string>
+
+    <!-- Messages -->
+    <string name="toast_ci_required">Ingresa el número de CI</string>
+    <string name="toast_evidence_saved">Evidencia guardada</string>
+    <string name="toast_evidence_deleted">Evidencia eliminada</string>
+    <string name="toast_error_saving">Error al guardar la evidencia</string>
+    <string name="toast_error_deleting">Error al eliminar la evidencia</string>
+    <string name="toast_no_evidence">No se encontraron evidencias</string>
+    <string name="toast_permission_denied">Permiso denegado</string>
 </resources>
