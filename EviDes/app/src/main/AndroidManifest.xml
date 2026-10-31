@@ -12,10 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Evides">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.HomeActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Evides"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,11 +22,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.HomeActivity"
+            android:name=".ui.FolderActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".ui.FolderActivity"
+            android:name=".ui.MapActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

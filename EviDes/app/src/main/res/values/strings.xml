@@ -10,7 +10,7 @@
 
     <!-- Home screen -->
     <string name="home_title">Which CI are you working on?</string>
-    <string name="home_subtitle">Type only the number the CI.</string>
+    <string name="home_subtitle">Type only the CI number.</string>
     <string name="home_number_label">CI number</string>
     <string name="home_hint">If the CI already exists, its folder opens. If not, a new one is created.</string>
     <string name="home_ci_prefix">CI-</string>
@@ -30,18 +30,13 @@
     <string name="filter_videos">Videos</string>
     <string name="folder_evidence_count">%1$d evidences</string>
     <string name="folder_add">Add</string>
-    <plurals name="folder_selected_count">
-        <item quantity="one">%1$d selected</item>
-        <item quantity="other">%1$d selected</item>
-    </plurals>
+    <string name="folder_selected_count">Selected: %1$d</string>
     <string name="folder_back">Back</string>
     <string name="folder_view_map">View map</string>
     <string name="evidence_photo">Photo</string>
     <string name="evidence_video">Video</string>
     <string name="evidence_selected">Selected</string>
     <string name="selection_clear">Clear selection</string>
-
-
 
     <!-- Add evidence sheet -->
     <string name="add_title">Add evidence</string>
@@ -55,4 +50,15 @@
     <string name="map_my_location">My location</string>
     <string name="map_evidence_at_point">%1$d evidences at this point</string>
     <string name="map_view">View</string>
+    <string name="map_placeholder">The map will be shown here</string>
+    <string name="map_total_summary">Total: %1$d, places: %2$d</string>
+
+    <!-- Messages -->
+    <string name="toast_ci_required">Enter the CI number</string>
+    <string name="toast_evidence_saved">Evidence saved</string>
+    <string name="toast_evidence_deleted">Evidence deleted</string>
+    <string name="toast_error_saving">Error saving the evidence</string>
+    <string name="toast_error_deleting">Error deleting the evidence</string>
+    <string name="toast_no_evidence">No evidence found</string>
+    <string name="toast_permission_denied">Permission denied</string>
 </resources>
