@@ -39,7 +39,7 @@ class EvidenceViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
     fun bind(evidence: Evidence, itemClickListener: OnEvidenceClickListener) {
         tvNote.text = evidence.note
-        tvDetail.text = evidence.type.name + " · #" + evidence.id
+        tvDetail.text = itemView.context.getString(R.string.crud_item_detail, evidence.id)
         itemView.setOnClickListener {
             itemClickListener.onEvidenceClick(evidence)
         }

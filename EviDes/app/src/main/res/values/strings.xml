@@ -82,4 +82,5 @@
     <string name="crud_msg_deleted">The evidence was deleted successfully.</string>
     <string name="crud_title">Evidence management</string>
     <string name="crud_search_hint">Search in notes</string>
+    <string name="crud_item_detail">Evidence #%1$d</string>
 </resources>
