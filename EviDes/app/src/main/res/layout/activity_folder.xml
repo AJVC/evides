@@ -40,6 +40,15 @@
                 tools:text="CI-10482" />
 
             <ImageButton
+                android:id="@+id/buttonManage"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/crud_title"
+                android:src="@android:drawable/ic_menu_edit"
+                app:tint="@color/evides_on_surface" />
+
+            <ImageButton
                 android:id="@+id/buttonMap"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
@@ -134,7 +143,6 @@
             android:textSize="14sp"
             tools:text="12 evidences" />
 
-        <!-- NEW: evidence list, 2 columns -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerEvidences"
             android:layout_width="match_parent"
@@ -151,7 +159,6 @@
             tools:listitem="@layout/item_evidence" />
     </LinearLayout>
 
-    <!-- NEW: floating Add button -->
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/buttonAdd"
         android:layout_width="wrap_content"

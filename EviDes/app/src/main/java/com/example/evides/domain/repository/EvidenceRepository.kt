@@ -13,6 +13,7 @@ interface EvidenceRepository {
     // Evidences
     fun getEvidences(number: String, type: EvidenceType? = null): List<Evidence>
     fun addEvidence(evidence: Evidence): Evidence
+    fun getEvidenceById(id: Long): Evidence?
     fun updateEvidence(evidence: Evidence): Boolean
     fun deleteEvidence(id: Long): Boolean
 }

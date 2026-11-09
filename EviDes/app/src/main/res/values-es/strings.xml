@@ -37,6 +37,7 @@
     <string name="evidence_video">Video</string>
     <string name="evidence_selected">Seleccionada</string>
     <string name="selection_clear">Cancelar selección</string>
+    <string name="folder_add_soon">La captura de fotos y videos llegará en la próxima entrega.</string>
 
     <!-- Add evidence sheet -->
     <string name="add_title">Agregar evidencia</string>
@@ -61,4 +62,24 @@
     <string name="toast_error_deleting">Error al eliminar la evidencia</string>
     <string name="toast_no_evidence">No se encontraron evidencias</string>
     <string name="toast_permission_denied">Permiso denegado</string>
+
+    <!-- CRUD screen -->
+    <string name="crud_label_id">Id</string>
+    <string name="crud_label_ci">Número de CI</string>
+    <string name="crud_label_note">Nota</string>
+    <string name="crud_menu_save">Guardar</string>
+    <string name="crud_menu_delete">Eliminar</string>
+    <string name="crud_menu_cancel">Cancelar</string>
+    <string name="crud_dialog_update_question">¿Desea guardar los cambios?</string>
+    <string name="crud_dialog_delete_question">¿Desea eliminar esta evidencia?</string>
+    <string name="crud_yes">Sí</string>
+    <string name="crud_no">No</string>
+    <string name="crud_msg_not_found">La evidencia no existe.</string>
+    <string name="crud_msg_incomplete">Complete la nota.</string>
+    <string name="crud_msg_saved">La evidencia se creó con éxito.</string>
+    <string name="crud_msg_updated">La evidencia se actualizó con éxito.</string>
+    <string name="crud_msg_deleted">La evidencia se eliminó con éxito.</string>
+    <string name="crud_title">Gestión de evidencias</string>
+    <string name="crud_search_hint">Buscar en las notas</string>
+
 </resources>
