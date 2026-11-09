@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- EviDes palette -->
+    <color name="evides_primary">#1F5FA8</color>
+    <color name="evides_on_primary">#FFFFFF</color>
+    <color name="evides_primary_container">#D6E6F8</color>
+    <color name="evides_on_primary_container">#0B2F55</color>
+    <color name="evides_background">#F5F9FD</color>
+    <color name="evides_on_surface">#1A1C1B</color>
+    <color name="evides_on_surface_variant">#4B5663</color>
+    <color name="evides_outline">#6F7C8A</color>
+    <color name="evides_tile">#DFE7F0</color>
+    <color name="evides_error">#B3261E</color>
 </resources>
