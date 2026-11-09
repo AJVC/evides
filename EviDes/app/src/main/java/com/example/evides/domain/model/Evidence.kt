@@ -7,5 +7,6 @@ data class Evidence(
     val uri: String,
     val latitude: Double?,
     val longitude: Double?,
-    val createdAt: Long
+    val createdAt: Long,
+    val note: String = ""
 )

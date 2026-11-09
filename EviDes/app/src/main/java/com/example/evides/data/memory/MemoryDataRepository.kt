@@ -32,6 +32,9 @@ class MemoryDataRepository : EvidenceRepository {
         return saved
     }
 
+    override fun getEvidenceById(id: Long): Evidence? =
+        evidences.find { it.id == id }
+
     override fun updateEvidence(evidence: Evidence): Boolean {
         val index = evidences.indexOfFirst { it.id == evidence.id }
         if (index == -1) return false
